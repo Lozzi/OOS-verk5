@@ -1,0 +1,13 @@
+{
+  "name": "Skype Plug'n'Play",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": 
+            "Extension for skype.",
+  "permissions": [
+			"storage"
+  ],
+  "chrome_url_overrides" : {
+      "newtab": "popup.html"
+    }
+}
